@@ -1,4 +1,4 @@
-![](name-of-giphy.gif)
+![](header.gif)
 
 Cite the Funky Bunch
 =============
