@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Cite the Funky Bunch ",
+	"version": "1.0",
+	"description": "Replaces the text 'et al' with 'and the funky bunch",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
